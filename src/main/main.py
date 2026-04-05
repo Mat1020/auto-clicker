@@ -1,4 +1,4 @@
-import main.toggle_key as toggle_key
+import toggle_key
 
 def main():
     toggle_key.main()
