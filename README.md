@@ -1,2 +1,2 @@
 # Auto Clicker
-My own version of a user-friendly auto clicker that anyone is able to download for themselves.
+My own desktop application of an auto clicker designed to be cross-platform (Windows, macOS, and Linux) and user-friendly for anyone to download and use.
