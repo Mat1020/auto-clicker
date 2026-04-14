@@ -1,0 +1,71 @@
+Auto Clicker - Goals:
+
+(x) Hotkey (on Tkinter) to run Auto Clicker:
+    (x) Hotkey works (1.0.0)
+    (x) Tkinter window and hotkey works (v1.0.1)
+
+() Toggle "Start/Stop" to enable Auto Clicker
+    () Logic of a button to start and stop works
+    () Displays text of "Stopped." on the left, and a button on the right of "Start"
+    () Displays text of "Started." on the left, and a button on the right of "Stop"
+    () README.md documentation
+        () Create a features section
+        () Create a sub-section for this feature
+        () Explain the enabling of the Auto Clicker in a sub-section
+    () v1.0.2 release notes
+
+() Add options of different clicks such as left-click, right-click, and middle-click:
+    () Logic of right-click works
+    () Logic of middle-click works 
+    () Logic of switching off between the 3 different click types works
+    () Text on top of the enabling the Auto Clicker, following with a dropdown to choose
+    () README.md documentation
+        () Create a sub-section for this feature
+        () Explain the switching off between the 3 different click types in
+    () v1.0.3 release notes
+
+() Additon to hotkey to run Auto Clicker, use stationary options:
+    () Logic of "if mouse is stationary after x seconds, then run the Auto Clicker" works
+    () Logic of "start clicking after x seconds" works
+    () Logic of "stop clicking after x seconds" works
+    () ONLY WORKS when hotkey sets the Auto Clicker to run
+    () Text to enter x seconds to start or stop clicking
+    () Text to enter x seconds when mouse is stationary
+    () README.md documentation
+        () Create a sub-section for this feature
+        () Explain the way the Auto CLicker works now when mouse is stationary, and how the Auto Clicker is enable or not influences this
+    () v1.0.4 release notes
+
+() Addition to "stationary mouse to run Auto Clicker", add different times for x seconds
+    () Logic of using "minutes" works
+    () Logic of using "hours" works
+    () Dropdown of every time it says "seconds" works
+    () README.md documentation
+        () Re-explain the feature to now say it also has other time types
+    () v1.0.5 release notes
+
+() Make Tkinter window look nicer
+    () Reserach external libraries that have more mordern themes
+    () Insert these to the project
+    () README.md documentation
+    () v1.1.0 release notes
+
+() Create a CONTRIBUTING.md and a license
+    () Research what to include in CONTRIBUTING.md
+    () Research the correct license for this repository
+    () README.md documentation
+        () Include a link to contributing page
+        () Include a link to the repo's license
+    () v1.1.1 release notes
+
+() Make this Auto CLicker downloadable for anyone
+    () Research how to download it
+        () Read about GitHub packages
+        () Learn about downloading .exe files
+        () Read for including it in the release notes
+    () README.md documentation
+        () Include how to download this project; download from latest release, unzip, and run the .exe files
+        () Include helpful images on Windows and macOS
+        () Use red arrows and helpful-working directions
+        () Make a table of contents section
+    () v2.0.0 release notes (1st prouction-ready release)
