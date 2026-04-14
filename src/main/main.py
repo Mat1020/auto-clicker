@@ -1,5 +1,6 @@
 from tkinter import *
 from tkinter import ttk
+import threading
 import toggle_key
 
 WIDTH, HEIGHT = 380, 420
@@ -10,6 +11,10 @@ def pause_and_resume_auto_clicker(start, root, frame):
         ttk.Label(frame, text="Stopped.").grid(column=0, row=0)
     elif start == True:
         ttk.Label(frame, text="Started.").grid(column=0, row=0)
+
+def enable_clicker():
+    thread = threading.Thread(target=toggle_key.main, daemon=True)
+    thread.start()
 
 def init_tkinter(root, button):
     button.pack()
@@ -25,7 +30,7 @@ def main():
     # start_auto_clicker = BooleanVar()
     # start_auto_clicker.set(False)
     # pause_and_resume_auto_clicker(start_auto_clicker, root, frame_window)
-    button = Button(root, text="Start", command=toggle_key.main)
+    button = Button(root, text="Start", command=enable_clicker)
 
 
     init_tkinter(root, button)
